@@ -1,0 +1,49 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.env
+.venv/
+
+# ── Whisper output files ──────────────────────────────────────────────────────
+*_whisper.json
+*_corrected.json
+*_karaoke.ass
+
+# ── Video files ───────────────────────────────────────────────────────────────
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# ── Output folders ────────────────────────────────────────────────────────────
+*_subtitles/
+
+# ── API keys and secrets ──────────────────────────────────────────────────────
+.env
+*.env
+secrets.json
+api_keys.json
+
+# ── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE files ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/

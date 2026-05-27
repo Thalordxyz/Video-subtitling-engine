@@ -1,0 +1,17 @@
+# Subtitling Engine — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core transcription ────────────────────────────────────────────────────────
+openai-whisper          # local audio transcription with word-level timestamps
+
+# ── Required by Whisper ───────────────────────────────────────────────────────
+torch                   # deep learning backend for Whisper
+torchaudio              # audio processing for Whisper
+numpy                   # numerical operations
+
+# ── Optional — smart corrections via LLM (--smart-correct flag) ───────────────
+anthropic               # Claude API client (only needed with --smart-correct)
+
+# ── Note ─────────────────────────────────────────────────────────────────────
+# FFmpeg must be installed separately and available in your system PATH.
+# Download from: https://ffmpeg.org/download.html

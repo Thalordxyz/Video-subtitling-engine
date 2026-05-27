@@ -1,0 +1,67 @@
+{
+  "_comment": "Subtitling Engine — Default Configuration",
+
+  "whisper": {
+    "model": "base",
+    "_model_options": ["tiny", "base", "small", "medium", "large"],
+    "language": "auto",
+    "_language_note": "Set to language code (es, en, fr) or auto for auto-detect"
+  },
+
+  "preview": {
+    "duration_seconds": 5,
+    "_duration_note": "Length of each preview clip in seconds",
+    "start_offset_seconds": 5,
+    "_start_offset_note": "How many seconds into the video the preview starts"
+  },
+
+  "defaults": {
+    "style": "classic",
+    "_style_options": ["classic", "bold", "box", "glow"],
+    "size": "medium",
+    "_size_options": ["small", "medium", "large"],
+    "position": "lowerthird",
+    "_position_options": ["bottom", "lowerthird", "midlow"]
+  },
+
+  "font": {
+    "small_px": 90,
+    "medium_px": 120,
+    "large_px": 150,
+    "family": "Arial",
+    "bold": true
+  },
+
+  "position": {
+    "bottom_margin": 130,
+    "lowerthird_margin": 700,
+    "midlow_margin": 1400
+  },
+
+  "colors": {
+    "primary": "&H00FFFFFF",
+    "_primary_note": "Main text color — white",
+    "highlight": "&H0000FFFF",
+    "_highlight_note": "Current word color — yellow",
+    "outline": "&H00000000",
+    "_outline_note": "Outline color — black"
+  },
+
+  "ffmpeg": {
+    "preset": "ultrafast",
+    "_preset_note": "Encoding speed preset: ultrafast, fast, medium, slow",
+    "crf": 22,
+    "_crf_note": "Quality level: lower = better quality, larger file (18-28 recommended)",
+    "hwaccel": "dxva2",
+    "_hwaccel_note": "Hardware acceleration: dxva2 (Windows), videotoolbox (Mac), vaapi (Linux)"
+  },
+
+  "smart_correct": {
+    "enabled": false,
+    "_enabled_note": "Set to true to enable LLM-assisted corrections (--smart-correct flag)",
+    "provider": "claude",
+    "_provider_options": ["claude", "openai", "gemini"],
+    "model": "claude-haiku-4-5-20251001",
+    "_model_note": "Use cheapest/fastest model to minimize cost"
+  }
+}
