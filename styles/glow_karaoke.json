@@ -1,0 +1,9 @@
+{
+  "name": "Glow Karaoke",
+  "description": "Soft glow effect on current word, no hard outline",
+  "outline": 0,
+  "shadow": 0,
+  "border_style": 1,
+  "back_colour": "&H00000000",
+  "glow_blur": 8
+}

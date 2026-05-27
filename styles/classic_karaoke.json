@@ -1,0 +1,9 @@
+{
+  "name": "Classic Karaoke",
+  "description": "White text, yellow highlight, black outline",
+  "outline": 4,
+  "shadow": 0,
+  "border_style": 1,
+  "back_colour": "&H00000000",
+  "glow_blur": 0
+}

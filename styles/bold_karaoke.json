@@ -1,0 +1,9 @@
+{
+  "name": "Bold Karaoke",
+  "description": "Thicker outline, stronger yellow, no background",
+  "outline": 8,
+  "shadow": 0,
+  "border_style": 1,
+  "back_colour": "&H00000000",
+  "glow_blur": 0
+}
